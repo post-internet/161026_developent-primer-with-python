@@ -1,0 +1,14 @@
+{
+  "title": "Pythonから始める開発入門",
+  "author": "3846masa",
+  "language": "ja",
+  "plugins": [
+    "include-codeblock",
+     "-sharing",
+     "-search",
+     "-lunr"
+  ],
+  "styles": {
+    "website": "./styles/website.css"
+  }
+}
