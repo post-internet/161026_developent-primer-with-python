@@ -3,11 +3,20 @@
   "author": "3846masa",
   "language": "ja",
   "plugins": [
+    "meta",
     "include-codeblock",
-     "-sharing",
-     "-search",
-     "-lunr"
+    "-sharing",
+    "-search",
+    "-lunr"
   ],
+  "pluginsConfig": {
+    "meta": {
+      "data": [{
+        "name": "robots",
+        "content": "noindex, nofollow"
+      }]
+    }
+  },
   "styles": {
     "website": "./styles/website.css"
   }
