@@ -5,7 +5,16 @@
 Python インタプリタを触るときに，
 **ターミナル（端末，プロンプト，CLI）** というソフトウェアがあると便利です[^†1]．
 
-まだ用意していない人は，[Tips | Windows でオススメのターミナル環境](./Tips/Windowsターミナル環境構築.md) を見てください．
+まだ用意していない人は，[Tips | Windows でオススメのターミナル環境](./Tips/Windowsターミナル環境構築/README.md) を見てください．
+
+### For Bash on Ubuntu on Windows
+
+Bash on Ubuntu on Windows を使う人は，次のコマンドでインストールできます．
+実行したら，これ以降のインストールは必要ありません．
+
+```bash
+$ sudo apt update && sudo apt install -y python3 python3-pip
+```
 
 ### Python for Windows のインストール
 

@@ -2,6 +2,15 @@
 
 Python 2.7 が入っている場合がありますが，今回は **Python 3.x を使います**[^†1]．
 
+### For Debian (Ubuntu, Debian etc.)
+
+Debian 系 OS (Ubuntu, Debian etc.) を使う人は，次のコマンドでインストールできます．
+実行したら，これ以降のインストールは必要ありません．
+
+```bash
+$ sudo apt-get update && sudo apt-get install -y python3 python3-pip
+```
+
 ### pyenv の導入
 
 [pyenv] は，複数のバージョンの Python をインストールできるツールです．
