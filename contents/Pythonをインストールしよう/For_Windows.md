@@ -16,7 +16,18 @@ Bash on Ubuntu on Windows を使う人は，次のコマンドでインストー
 $ sudo apt update && sudo apt install -y python3 python3-pip
 ```
 
-### Python for Windows のインストール
+### For MSYS2
+
+MSYS2 を使う人は，次のコマンドでインストールできます．
+実行したら，これ以降のインストールは必要ありません．
+
+```bash
+pacman -S mingw-w64-x86_64-python3 mingw-w64-x86_64-python3-pip
+```
+
+#### For コマンドプロンプト
+
+#### Python for Windows のインストール
 
 [Python Releases for Windows] の **Latest Python 3 Release** へ移動します（2016/10/9 現在 Python 3.5.2）．
 
@@ -50,30 +61,17 @@ $ sudo apt update && sudo apt install -y python3 python3-pip
 
 [Python Releases for Windows]: https://www.python.org/downloads/windows/
 
-### エイリアスの設定
+#### 講義について
 
-この講義では， `python3` と `pip3` コマンドを使います．
+この講義では， `python3` コマンドを使います．
 Windows版では，それらの代わりに `py -3` コマンドを使います[^†2]．
 
-このあとの講義をスムーズに進めるために，エイリアスの設定をします．
+これ以降の講義については，`python3` を `py -3` に置き換えてください．
 
-`~/.bash_aliases` に次の行を **追記します**．
+一応 `doskey python3=py -3 $*` を使うと，同じコマンドで使えるようになります．
+ただし，通常ではコマンドプロンプトを起動するたびに打つ必要があります．
 
-```bash
-alias python3='py -3'
-alias pip3='py -3 -m pip'
-```
-
-設定が終わったあと， `exec $SHELL -l` もしくは **ターミナルを再起動** します．
-
-さいごに，正常にエイリアス設定ができているか確認しましょう．
-
-```bash
-$ command -V python3
-python3 は `py -3' のエイリアスです
-$ command -V pip3
-python3 は `py -3 -m pip' のエイリアスです
-```
+いい感じにしたいひとは，[Big Sky :: Windows ユーザは cmd.exe で生きるべき。](http://mattn.kaoriya.net/software/why-i-use-cmd-on-windows.htm)が参考になります．
 
 -----
 
