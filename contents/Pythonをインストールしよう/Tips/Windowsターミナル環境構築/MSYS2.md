@@ -34,8 +34,8 @@ http://msys2.github.io/ から
 - Cmder を再起動する
 
 ![](./imgs/cmder_msys.png)
-![](./imgs/cmder_msys_default.png)
 ![](./imgs/cmder_msys_env.png)
+![](./imgs/cmder_msys_default.png)
 
 
 #### MSYS2 の設定
