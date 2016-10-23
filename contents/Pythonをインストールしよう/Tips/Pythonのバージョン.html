@@ -381,19 +381,22 @@
 &#x3057;&#x3070;&#x3057;&#x3070;&#x8B70;&#x8AD6;&#x306B;&#x4E0A;&#x304C;&#x308A;&#x307E;&#x3059;&#xFF0E;</p>
 <p>&#x7D30;&#x304B;&#x306A;&#x9055;&#x3044;&#x306F;&#x3044;&#x308D;&#x3044;&#x308D;&#x3042;&#x308A;&#x307E;&#x3059;&#x304C;&#xFF0C;
 &#x65E5;&#x672C;&#x4EBA;&#x306B;&#x3068;&#x3063;&#x3066;&#x91CD;&#x8981;&#x3068;&#x306A;&#x308B;&#x306E;&#x306F;&#xFF0C; <strong>Unicode&#x6587;&#x5B57;&#x306E;&#x6271;&#x3044;</strong> &#x3067;&#x3059;&#xFF0E;</p>
-<p><strong>Python2 &#x3067;&#x306F; str &#x578B; &#x3068; unicode &#x578B;&#x304C;&#x3042;&#x308A;</strong>&#xFF0C;
+<p><strong>Python2 &#x3067;&#x306F;&#xFF0C;&#x6587;&#x5B57;&#x5217;&#x3092;&#x6271;&#x3046; str &#x578B; &#x3068; unicode &#x578B;&#x304C;&#x3042;&#x308A;</strong>&#xFF0C;
 &#x578B;&#x304C;&#x3042;&#x3063;&#x3066;&#x3044;&#x306A;&#x3044;&#x3068;&#xFF0C;&#x4E88;&#x671F;&#x3057;&#x306A;&#x3044;&#x7D50;&#x679C;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#xFF0E;</p>
 <pre><code class="lang-python"><span class="hljs-comment">#!python2</span>
 print(len(<span class="hljs-string">&quot;&#x65E5;&#x672C;&#x8A9E;&quot;</span>)) <span class="hljs-comment"># 9</span>
 print(len(<span class="hljs-string">u&quot;&#x65E5;&#x672C;&#x8A9E;&quot;</span>)) <span class="hljs-comment"># 3</span>
 </code></pre>
-<p>&#x4E00;&#x65B9;&#x3067;&#xFF0C; <strong>Python3 &#x3067;&#x306F; str &#x578B;&#x306B;&#x7D71;&#x5408;&#x3055;&#x308C;&#x305F;&#x305F;&#x3081;</strong>&#xFF0C;
-&#x578B;&#x306E;&#x5FC3;&#x914D;&#x3092;&#x3059;&#x308B;&#x5FC5;&#x8981;&#x304C;&#x306A;&#x304F;&#x306A;&#x308A;&#x307E;&#x3057;&#x305F;&#xFF0E;</p>
+<p>&#x4E00;&#x65B9;&#x3067;&#xFF0C;
+<strong>Python3 &#x3067;&#x306F; unicode &#x578B;&#x304C; str &#x578B;&#x306B;&#x306A;&#x308A;&#xFF0C;
+&#x6587;&#x5B57;&#x5217;&#x306F;&#x6A19;&#x6E96;&#x3067; Unicode &#x306B;&#x306A;&#x3063;&#x305F;&#x305F;&#x3081;</strong>&#xFF0C;
+&#x6587;&#x5B57;&#x5217;&#x51E6;&#x7406;&#x304C;&#x3057;&#x3084;&#x3059;&#x304F;&#x306A;&#x308A;&#x307E;&#x3057;&#x305F;&#xFF0E;</p>
 <pre><code class="lang-python"><span class="hljs-comment">#!python3</span>
 print(len(<span class="hljs-string">&quot;&#x65E5;&#x672C;&#x8A9E;&quot;</span>)) <span class="hljs-comment"># 3</span>
 </code></pre>
-<p>&#x3068;&#x304F;&#x306B;&#xFF0C;ASCII&#x6587;&#x5B57;&#x4EE5;&#x5916;&#x3092;&#x4F7F;&#x3046;&#x3053;&#x3068;&#x306E;&#x591A;&#x3044;&#xFF0C;&#x6211;&#x3005;&#x65E5;&#x672C;&#x4EBA;&#x306B;&#x3068;&#x3063;&#x3066;&#x306F;&#xFF0C;
-Python3 &#x3092;&#x7A4D;&#x6975;&#x7684;&#x306B;&#x4F7F;&#x3046;&#x306E;&#x304C;&#x3088;&#x3044;&#x3068;&#x601D;&#x3044;&#x307E;&#x3059;&#xFF0E;</p>
+<p>&#x3068;&#x304F;&#x306B;&#xFF0C;
+<strong>Unicode &#x3092;&#x4F7F;&#x3046;&#x3053;&#x3068;&#x306E;&#x591A;&#x3044;&#x65E5;&#x672C;&#x4EBA;&#x306F;&#xFF0C;
+Python3 &#x3092;&#x7A4D;&#x6975;&#x7684;&#x306B;&#x4F7F;&#x3046;&#x306E;&#x304C;&#x3088;&#x3044;&#x3068;&#x601D;&#x3044;&#x307E;&#x3059;</strong>&#xFF0E;</p>
 <p>&#x3082;&#x3061;&#x308D;&#x3093; <strong>&#x4F7F;&#x3046;&#x30E9;&#x30A4;&#x30D6;&#x30E9;&#x30EA;&#x304C;&#x3069;&#x3061;&#x3089;&#x306E;&#x30D0;&#x30FC;&#x30B8;&#x30E7;&#x30F3;&#x306B;&#x5BFE;&#x5FDC;&#x3057;&#x3066;&#x3044;&#x308B;&#x304B;</strong> &#x3068;&#x3044;&#x3046;&#x3053;&#x3068;&#x3082;&#x91CD;&#x8981;&#x3067;&#x3059;&#x306E;&#x3067;&#xFF0C;
 &#x4F5C;&#x308B;&#x3082;&#x306E;&#x306B;&#x5408;&#x308F;&#x305B;&#x3066;&#x30D0;&#x30FC;&#x30B8;&#x30E7;&#x30F3;&#x3092;&#x4F7F;&#x3044;&#x5206;&#x3051;&#x308B;&#x3068;&#x3088;&#x3044;&#x3067;&#x3057;&#x3087;&#x3046;&#xFF0E;</p>
 <h3 id="&#x30D0;&#x30FC;&#x30B8;&#x30E7;&#x30F3;&#x7BA1;&#x7406;&#x30BD;&#x30D5;&#x30C8;-pyenv-py">&#x30D0;&#x30FC;&#x30B8;&#x30E7;&#x30F3;&#x7BA1;&#x7406;&#x30BD;&#x30D5;&#x30C8; (pyenv, py)</h3>
@@ -423,7 +426,7 @@ Windows &#x3067;&#x306F; <strong><a href="http://docs.python.jp/3/using/windows.
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Python のバージョン","level":"1.3.4.4","depth":3,"previous":{"title":"MSYS2","level":"1.3.4.3.3","depth":4,"path":"contents/Pythonをインストールしよう/Tips/Windowsターミナル環境構築/MSYS2.md","ref":"./contents/Pythonをインストールしよう/Tips/Windowsターミナル環境構築/MSYS2.md","articles":[]},"dir":"ltr"},"config":{"plugins":["meta","include-codeblock","-sharing","-search","-lunr"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"meta":{"content":"","data":[{"name":"robots","content":"noindex, nofollow"}],"name":""},"include-codeblock":{},"highlight":{},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"3846masa","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Pythonから始める開発入門","language":"ja","gitbook":"*"},"file":{"path":"contents/Pythonをインストールしよう/Tips/Pythonのバージョン.md","mtime":"2016-10-14T08:48:46.882Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-10-23T18:15:56.608Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Python のバージョン","level":"1.3.4.4","depth":3,"previous":{"title":"MSYS2","level":"1.3.4.3.3","depth":4,"path":"contents/Pythonをインストールしよう/Tips/Windowsターミナル環境構築/MSYS2.md","ref":"./contents/Pythonをインストールしよう/Tips/Windowsターミナル環境構築/MSYS2.md","articles":[]},"dir":"ltr"},"config":{"plugins":["meta","include-codeblock","-sharing","-search","-lunr"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"meta":{"content":"","data":[{"name":"robots","content":"noindex, nofollow"}],"name":""},"include-codeblock":{},"highlight":{},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"3846masa","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Pythonから始める開発入門","language":"ja","gitbook":"*"},"file":{"path":"contents/Pythonをインストールしよう/Tips/Pythonのバージョン.md","mtime":"2016-10-23T18:26:38.991Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-10-23T18:28:00.828Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>
