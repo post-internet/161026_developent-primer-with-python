@@ -25,7 +25,7 @@ MSYS2 を使う人は，次のコマンドでインストールできます．
 pacman -S mingw-w64-x86_64-python3 mingw-w64-x86_64-python3-pip
 ```
 
-#### For コマンドプロンプト
+### For コマンドプロンプト
 
 #### Python for Windows のインストール
 
