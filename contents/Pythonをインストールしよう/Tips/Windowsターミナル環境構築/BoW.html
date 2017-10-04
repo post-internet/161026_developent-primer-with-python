@@ -7,7 +7,7 @@
         <title>Bash on Ubuntu on Windows · Pythonから始める開発入門</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="generator" content="GitBook 3.2.3">
         <meta name="author" content="3846masa">
         
         
@@ -416,7 +416,7 @@ Ubuntu &#x30D9;&#x30FC;&#x30B9;&#x306E; Linux &#x74B0;&#x5883;&#x304C;&#x4F7F;&#
 $ sudo sh -c <span class="hljs-string">&apos;echo 127.0.1.1 $(hostname) &gt;&gt; /etc/hosts&apos;</span>
 <span class="hljs-comment"># &#xFF08;&#x4EFB;&#x610F;&#xFF09;HOME &#x306E;&#x5909;&#x66F4;</span>
 $ cp ~/.* /mnt/c/Users/{YourUserName}
-$ sed /etc/passwd <span class="hljs-_">-e</span> <span class="hljs-string">&quot;s#/home/<span class="hljs-variable">${USER}</span>#/mnt/c/Users/{YourUserName}#&quot;</span>
+$ sed -i /etc/passwd <span class="hljs-_">-e</span> <span class="hljs-string">&quot;s#/home/<span class="hljs-variable">${USER}</span>#/mnt/c/Users/{YourUserName}#&quot;</span>
 </code></pre>
 <p>&#x4E00;&#x65E6; Cmder &#x3092;&#x518D;&#x8D77;&#x52D5;&#x3059;&#x308B;&#xFF0E;</p>
 <pre><code class="lang-bash"><span class="hljs-comment"># force_color_prompt</span>
@@ -452,7 +452,7 @@ $ <span class="hljs-built_in">exec</span> <span class="hljs-variable">$SHELL</sp
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Bash on Ubuntu on Windows","level":"1.3.4.3.2","depth":4,"next":{"title":"MSYS2","level":"1.3.4.3.3","depth":4,"path":"contents/Pythonをインストールしよう/Tips/Windowsターミナル環境構築/MSYS2.md","ref":"./contents/Pythonをインストールしよう/Tips/Windowsターミナル環境構築/MSYS2.md","articles":[]},"previous":{"title":"Cmder","level":"1.3.4.3.1","depth":4,"path":"contents/Pythonをインストールしよう/Tips/Windowsターミナル環境構築/Cmder.md","ref":"./contents/Pythonをインストールしよう/Tips/Windowsターミナル環境構築/Cmder.md","articles":[]},"dir":"ltr"},"config":{"plugins":["meta","include-codeblock","-sharing","-search","-lunr"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"meta":{"content":"","data":[{"name":"robots","content":"noindex, nofollow"}],"name":""},"include-codeblock":{},"highlight":{},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"3846masa","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Pythonから始める開発入門","language":"ja","gitbook":"*"},"file":{"path":"contents/Pythonをインストールしよう/Tips/Windowsターミナル環境構築/BoW.md","mtime":"2016-10-15T03:03:38.290Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-10-23T18:28:00.828Z"},"basePath":"../../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Bash on Ubuntu on Windows","level":"1.3.4.3.2","depth":4,"next":{"title":"MSYS2","level":"1.3.4.3.3","depth":4,"path":"contents/Pythonをインストールしよう/Tips/Windowsターミナル環境構築/MSYS2.md","ref":"./contents/Pythonをインストールしよう/Tips/Windowsターミナル環境構築/MSYS2.md","articles":[]},"previous":{"title":"Cmder","level":"1.3.4.3.1","depth":4,"path":"contents/Pythonをインストールしよう/Tips/Windowsターミナル環境構築/Cmder.md","ref":"./contents/Pythonをインストールしよう/Tips/Windowsターミナル環境構築/Cmder.md","articles":[]},"dir":"ltr"},"config":{"plugins":["meta","include-codeblock","-sharing","-search","-lunr"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"meta":{"content":"","data":[{"name":"robots","content":"noindex, nofollow"}],"name":""},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"highlight":{},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"3846masa","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Pythonから始める開発入門","language":"ja","gitbook":"*"},"file":{"path":"contents/Pythonをインストールしよう/Tips/Windowsターミナル環境構築/BoW.md","mtime":"2017-10-04T05:28:11.232Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-10-04T05:29:33.706Z"},"basePath":"../../../..","book":{"language":""}});
         });
     </script>
 </div>
