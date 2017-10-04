@@ -54,7 +54,7 @@ Windows ユーザ名は， `Win + R` のあとに `cmd /c "echo %USERNAME% && pa
 $ sudo sh -c 'echo 127.0.1.1 $(hostname) >> /etc/hosts'
 # （任意）HOME の変更
 $ cp ~/.* /mnt/c/Users/{YourUserName}
-$ sed /etc/passwd -e "s#/home/${USER}#/mnt/c/Users/{YourUserName}#"
+$ sed -i /etc/passwd -e "s#/home/${USER}#/mnt/c/Users/{YourUserName}#"
 ```
 
 一旦 Cmder を再起動する．
